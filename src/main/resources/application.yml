@@ -4,8 +4,6 @@ external:
     retry-attempts: 3
     read-timeout: 5050ms
     max-payload-size: 3KB
-    prop:
-      prop: asd
     tls-versions:
       - TLSv1.2
       - TLSv1.3
