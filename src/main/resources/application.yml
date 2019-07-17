@@ -1,0 +1,15 @@
+external:
+  service:
+    base-url: http://localhost:8080
+    retry-attempts: 3
+    read-timeout: 5050ms
+    max-payload-size: 3KB
+    prop:
+      prop: asd
+    tls-versions:
+      - TLSv1.2
+      - TLSv1.3
+
+---
+spring:
+  profiles: dev

@@ -1,0 +1,2 @@
+org.springframework.boot.env.EnvironmentPostProcessor=me.kupchenko.springbootmavendemo.starter.CustomEPP
+org.springframework.context.ApplicationContextInitializer=me.kupchenko.springbootmavendemo.starter.CustomContextInit
